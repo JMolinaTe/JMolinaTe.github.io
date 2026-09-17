@@ -10,8 +10,18 @@
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
+  "app/login/google-login-client.tsx": {
+    "file": "assets/google-login-client-C-P5OWG-.js",
+    "name": "google-login-client",
+    "src": "app/login/google-login-client.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "app/page.tsx": {
-    "file": "assets/page-DK5gCkgn.js",
+    "file": "assets/page-bUdZifTF.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -21,7 +31,7 @@
     ]
   },
   "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_6e29d3c1e221dce46ffd79bec19b99c1/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-DfR1gyfB.js",
+    "file": "assets/layout-segment-context-DZ4B0I1n.js",
     "name": "layout-segment-context",
     "src": "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_6e29d3c1e221dce46ffd79bec19b99c1/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -32,7 +42,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DIABQFOO.js",
+    "file": "assets/index-CBkoy9Eq.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -43,6 +53,7 @@
     "dynamicImports": [
       "virtual:vinext-app-browser-entry",
       "app/page.tsx",
+      "app/login/google-login-client.tsx",
       "node_modules/.pnpm/vinext@0.0.50_@vitejs+plugi_6e29d3c1e221dce46ffd79bec19b99c1/node_modules/vinext/dist/shims/layout-segment-context.js"
     ]
   }
